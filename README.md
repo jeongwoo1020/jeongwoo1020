@@ -11,11 +11,9 @@
 
 ---
 
-### 📌 About Me
+### About Me
 - 🎓 성균관대학교 데이터사이언스융합전공 / 소프트웨어학과 복수전공
 - 💼 Foodcare 데이터팀 분석가·엔지니어 인턴 (2025.06 – 2025.12)
-- 🌏 영어(Advanced) · 일본어(Advanced, JLPT N3)
-- 📫 ndn1020@gmail.com
 
 ---
 
@@ -47,34 +45,28 @@
 
 ---
 
-### 🚀 Projects
+### 🚀 Key Projects
 
-#### 📊 구매 전환율 개선 CRM 프로젝트
-`2025.08 – 2025.11` · Foodcare · SQL, Python, GA4, GCP Cloud Function, Airflow
-- 첫 구매 고객 퍼널 분석으로 이탈 원인을 규명하고 CRM 전략 설계
-- Webhook–GA4 연동 실시간 캠페인 모니터링 파이프라인 구축
-- 2주 스프린트에서 통제군 대비 **첫구매 전환율 90% 개선**
+| 프로젝트 | 기간 | 한 줄 요약 | 스택 |
+|---|---|---|---|
+| 📊 **구매 전환율 개선 CRM 프로젝트** | 2025.08 – 2025.11 | VoC/구매 데이터 분석으로 페인포인트 발굴 → 팝업 CRM 기획, **첫구매 전환율 90% 개선** | `SQL` `Python` `GA4` `Airflow` |
+| 🤖 **회의록 액션아이템 추출 & 생산성 스코어링 서비스** | 2026.03 – 2026.06 | RAG로 환각 완화 + BERTScore 정량 검증 파이프라인을 갖춘 LLM 서비스 개발 | `LLM API` `RAG` `BERTScore` |
+| 💬 **실시간 정신건강 탐지 챗봇 "마음톡톡"** | 2024.09 – 2024.12 | 2만+건 크롤링·LLM 라벨링으로 데이터 구축, BERT 모델 **Recall 0.9001** 달성 | `BERT` `Prompt Engineering` |
 
-#### 🤖 회의록 액션아이템 추출 & 생산성 스코어링 서비스
-`2026.03 – 2026.06` · 개인 프로젝트 · LLM API, RAG, BERTScore
-- LLM 기반 회의 액션아이템 자동 추출 및 생산성 평가 웹 서비스 개발
-- RAG 아키텍처로 이전 회의록/프로젝트 데이터를 근거로 활용해 환각(hallucination) 완화
-- BERTScore 기반 정량 검증 파이프라인 구축
+---
 
-#### 💬 텍스트 기반 정신질환 진단 모델 개발
-`2024.09 – 2024.12` · 캡스톤 프로젝트 · BERT, LLM Prompt Engineering
-- 2만 건 이상 텍스트 크롤링 및 LLM 프롬프트 엔지니어링으로 증상 데이터 추출
-- BERT 기반 CURE 모델 학습, **Recall 0.9001** 달성
+### 📁 All Projects
 
-#### 🌱 스마트팜 플랫폼 (청년 농부 지원)
-`2023.08 – 2024.12` · DScover 학회 · Streamlit, 머신러닝
-- 작물별 최적 입지 추천 및 컨설팅 리포트 대시보드 개발
-
-#### 🏃 ProoFit – 운동 루틴 인증 서비스 백엔드
-`2026.01 – 2026.02` · KAIST 팀 프로젝트 · Django, PostgreSQL, Docker, GCP Cloud Run
-- REST API 기반 인증/커뮤니티 피드/채팅 모듈화 설계
-- Django Channels 기반 실시간 채팅 및 자정 배치 스케줄링 구현
-- Docker 컨테이너화 후 GCP Cloud Run 배포
+| 프로젝트 | 기간 | 설명 | 스택 | 링크 |
+|---|---|---|---|---|
+| 구매 전환율 개선 CRM 프로젝트 | 2025.08 – 2025.11 | Foodcare 인턴 프로젝트, GA4·VoC·구매 데이터 분석 기반 자사몰 팝업 CRM 기획 및 A/B 검증 | `SQL` `Python` `GA4` `Airflow` | - |
+| Webhook to GA4 파이프라인 | 2025 | Channelio Webhook과 GA4를 연결하는 GCP Cloud Function 기반 실시간 캠페인 데이터 수집 파이프라인 | `GCP Cloud Function` `Webhook` `GA4` | [Repo →](https://github.com/jeongwoo1020/ChannelioWebhook_to_GA) |
+| 회의록 액션아이템 추출 & 생산성 스코어링 서비스 | 2026.03 – 2026.06 | LLM 기반 회의 액션아이템 자동 생성 및 생산성 평가, RAG로 환각 완화 | `LLM API` `RAG` `BERTScore` | [Repo →](https://github.com/skkuse/2026spring_41class_team3) |
+| 텍스트 기반 정신질환 진단 모델 개발 | 2024.09 – 2024.12 | 텍스트 크롤링·LLM 프롬프트 라벨링으로 증상 데이터 구축, BERT 기반 CURE 모델 학습 | `BERT` `Prompt Engineering` | [Repo →](https://github.com/mingu0215/24-2-Capstone-Design-Project) |
+| 세종시 종합소아센터 입지분석과 정책 제안 | 2024 | 세종시 신도시 의료 수급 불균형 해결을 위한 종합소아센터 최적 입지 분석, 인구·의료접근성 데이터 기반 머신러닝 | `Python` `머신러닝` | [Repo →](https://github.com/jeongwoo1020/NABIS) |
+| AI-Driven Parametric NDBI Platform: Turning Hot-Sea Power-Supply Risk into a 30-Day Cheque | 2026.03 – 2026.05 | 기후 변화로 인한 해수면 온도 상승, 전력 효율 저하 리스크 관리 서비스 제안, 시계열 데이터 분석 | `Python` | [Repo →](https://github.com/jeongwoo1020/SST-electricity_Risk_Management) |
+| 청년 농부를 위한 스마트 노지 통합 서비스 | 2023.08 – 2024.12 | 작물별 최적 입지 추천 및 컨설팅 리포트 Streamlit 대시보드 개발 | `Streamlit` `머신러닝` | - |
+| ProoFit – 운동 루틴 인증 서비스 백엔드 | 2026.01 – 2026.02 | REST API 기반 인증/피드/채팅 모듈화, Django Channels 실시간 채팅, GCP Cloud Run 배포 | `Django` `PostgreSQL` `Docker` `GCP Cloud Run` | [Repo →](https://github.com/jeongwoo1020/MADCAMP-W2-Backend) |
 
 ---
 
@@ -84,6 +76,6 @@
 |---|---|---|
 | 2024.12 | NABIS 균형발전 빅데이터 공모전 최우수상 | 한국산업기술기획평가원 |
 | 2024.01 | 데이터사이언스융합전공 제1회 해커톤 대상 | 성균관대학교 소프트웨어융합대학 |
-| 2025.03 | DScover 내부 학술대회 1등 (2024-2학기) | 성균 명품 스터디클럽 DScover |
-| 2023-2024 | DScover 내부 학술대회 1등 (20233-2학기) | 성균 명품 스터디클럽 DScover |
+| 2024.09-12 | DScover 내부 학술대회 1등 | 성균 명품 스터디클럽 DScover |
+| 2023.09-12 | DScover 내부 학술대회 1등 | 성균 명품 스터디클럽 DScover |
 
